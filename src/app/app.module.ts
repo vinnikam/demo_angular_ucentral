@@ -11,6 +11,7 @@ import { AutenticacionComponent } from './componentes/autenticacion/autenticacio
 import { OperacionesService } from './servicios/operaciones.service';
 import {RouterModule, Routes} from '@angular/router';
 import { DatosComponent } from './componentes/datos/datos.component';
+import { PrincipalComponent } from './componentes/principal/principal.component';
 
 
 const appRoutes: Routes = [
@@ -23,7 +24,8 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     AutenticacionComponent,
-    DatosComponent
+    DatosComponent,
+    PrincipalComponent
   ],
   imports: [
     BrowserModule,
