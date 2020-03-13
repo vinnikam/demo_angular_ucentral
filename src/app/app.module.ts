@@ -12,6 +12,7 @@ import { OperacionesService } from './servicios/operaciones.service';
 import {RouterModule, Routes} from '@angular/router';
 import { DatosComponent } from './componentes/datos/datos.component';
 import { PrincipalComponent } from './componentes/principal/principal.component';
+import {RadioButtonModule} from 'primeng/radiobutton';
 
 
 const appRoutes: Routes = [
@@ -33,6 +34,7 @@ const appRoutes: Routes = [
     HttpClientModule,
     FormsModule,
     RouterModule.forRoot(appRoutes),
+    RadioButtonModule
   ],
   providers: [OperacionesService],
   bootstrap: [AppComponent]

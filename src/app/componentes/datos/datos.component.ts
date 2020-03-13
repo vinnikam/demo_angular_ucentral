@@ -11,6 +11,9 @@ import {Router} from "@angular/router";
 })
 export class DatosComponent implements OnInit {
   dato: Usuario;
+  tipocomp: string;
+  tipo= 'valor';
+  selectedValue: string = 'val1';
 
   constructor(private servicio: OperacionesService,
               private router: Router) {
